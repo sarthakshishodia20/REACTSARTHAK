@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #242424;
+  color: white;
+}
+
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: #242424;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: white;
+  color: #242424;
+}
+
+button:active{
+  background-color: #242424;
+  color: white;
+}
