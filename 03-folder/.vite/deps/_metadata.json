@@ -1,0 +1,32 @@
+{
+  "hash": "fa638a9c",
+  "configHash": "b1c70bcf",
+  "lockfileHash": "0996fd4b",
+  "browserHash": "2bd999a2",
+  "optimized": {
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "835d30c8",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "ea50c252",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "eb3d12b8",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "react-ri9nYtPN": {
+      "file": "react-ri9nYtPN.js",
+      "isDynamicEntry": false
+    }
+  }
+}
