@@ -1,0 +1,28 @@
+.navbar{
+    background-color: rgb(44, 0, 0);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li{
+    margin: 0 10px;
+}
+
+.navbar ul li:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.navbar ul li:active{
+    color: white;
+    cursor: pointer;
+}

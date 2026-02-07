@@ -11,7 +11,27 @@ body{
 
 #root{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   height: 100vh;
+}
+
+#parent1{
+  background-color: #242424;
+  color: white;
+}
+
+#child1{
+  background-color: #242424;
+  color: red;
+}
+
+#child2{
+  background-color: #242424;
+  color: yellowgreen;
+}
+
+#child3{
+  background-color: #242424;
+  color: blue;
 }
