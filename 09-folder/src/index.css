@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #757575;
+  color: #e0e0e0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.increment{
+  background-color: #2196f3;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.increment:hover{
+  background-color: #1976d2;
+}
+.decrement{
+  background-color: #f44336;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.decrement:hover{
+  background-color: #d32f2f;
+}
+.reset{
+  background-color: #2196f3;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.reset:hover{
+  background-color: #1976d2;
+}
+.jumpToFive{
+  background-color: #d43d29;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.jumpToFive:hover{
+  background-color: #303030;
+}
+.jumpToTen{
+  background-color: #2196f3;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.jumpToTen:hover{
+  background-color: #1976d2;
+}
